@@ -32,7 +32,7 @@ public class Lib {
         return null; // Книга не знайдена
     }
 
-    //remov a book by ISBN
+    //remove a book by ISBN
     public void removeBookISBN(String isbnBook) {
         books.removeIf(book -> book.getIsbnBook().equals(isbnBook));
     }
