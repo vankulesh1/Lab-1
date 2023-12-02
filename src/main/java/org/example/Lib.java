@@ -14,11 +14,13 @@ public class Lib {
     public void addBook(Book book){
         books.add(book);
     }
-}
+
 //print all the books in the library
     public void displayBooks() {
         for (Book book : books) {
-            System.out.println(book.getTitleBook() + "\t" + book.getAuthorBook() + "\t" + book.getIsbnBook() + "\t" + book.getYearBook());
+            System.out.println("/------------------------------------------------------------------------------------------/");
+            System.out.println( book.getTitleBook() +"    "+ book.getAuthorBook()+"    "+book.getIsbnBook()+"    "+ book.getYearBook());
+            System.out.println("/------------------------------------------------------------------------------------------/");
         }
     }
 

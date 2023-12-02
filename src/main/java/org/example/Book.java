@@ -17,13 +17,13 @@ public class Book {
     public String getTitleBook(){
         return titleBook;
     }
-    public String getAuthorBookBook(){
+    public String getAuthorBook(){
         return authorBook;
     }
     public String getIsbnBook(){
         return isbnBook;
     }
-    public String getYearBook(){
+    public int getYearBook(){
         return yearBook;
     }
 }
